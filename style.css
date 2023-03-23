@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height:100vh;
+    box-sizing: border-box;
+    background:  #3f3e3efb url("imagem3.jpg") no-repeat right top fixed;
+    background-position: 100%;
+    background-blend-mode: multiply;
+
+    color: #dcdaef
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex; /*  Alinha um ao lado do outro e os filhos podem usar propriedades especiais*/
+    align-items: center; /* ajusta verticalmente os elementos filhos */
+    justify-content: space-between; /* ajusta horizontalmente os elementos filhos do conteiner */
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display:flex;
+    flex-direction: column; /* Define a direcao do eixo principal */
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    text-align: center; /*  */
+    font-size: 36px;
+    
+
+}
+.apresentacao__conteudo__profissao{
+    text-align: center;
+    font-size: 24px;
+   
+
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    
+}
+
+.apresentacao__conteudo__contato{
+    font-size: 24px;
+
+}
+
+.apresentacao__conteudo__links{
+    display: flex;
+    justify-content: space-between; /*  */
+}
+
+.apresentacao__conteudo__links_botton{
+    background-color: #1900ff;
+    width: 180px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0 ;
+    color: #faf6f6;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none
+
+
+}
